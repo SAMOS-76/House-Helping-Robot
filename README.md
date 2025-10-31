@@ -1,6 +1,7 @@
 # 🤖 House Helping Robot (HHR)
 
-![HHR Prototype](media/images/hhr-prototype.jpg)
+<img width="496" height="815" alt="image" src="https://github.com/user-attachments/assets/049c0b8a-0aba-4e15-b816-8a07cdb4b5fc" />
+
 
 A personal robotics project designed to assist with everyday tasks in the home or care environments.  
 The **House Helping Robot (HHR)** combines mechanical design, computer vision, and voice control to create an accessible, affordable, and collaborative robotic assistant.
@@ -26,7 +27,7 @@ The goal of HHR is to make such automation **accessible, affordable, and practic
 
 ## ⚙️ How It Works
 
-1. User gives a simple command — e.g. `"Grab the cup"`.
+1. User gives a simple command — e.g. `"Grab the vase"`.
 2. The robot:
    - Uses **object recognition** to identify the target.  
    - Calculates **distance** with a **depth camera**.  
@@ -34,7 +35,8 @@ The goal of HHR is to make such automation **accessible, affordable, and practic
 3. The robotic arm then retrieves the object.
 
 📹 *Demo:*  
-[![Voice Command Demo](media/images/voice-demo-thumb.jpg)](media/videos/voice-command-demo.mp4)
+https://github.com/user-attachments/assets/4dac9671-ce60-41e7-9f48-af2dfbe0eda8
+
 
 ---
 
@@ -44,9 +46,6 @@ The goal of HHR is to make such automation **accessible, affordable, and practic
 - **Custom Parts:** 3D printed (PLA and TPU) for cost-effective and quick manufacturing.  
 - **Design Priority:** Maintain structural integrity while minimizing cost and weight.
 
-🖼️ *Frame Concept:*  
-![Frame Design](media/images/frame-design.jpg)
-
 ---
 
 ## 🚗 Manoeuvrability
@@ -55,8 +54,6 @@ The goal of HHR is to make such automation **accessible, affordable, and practic
 - **Low center of mass** for exceptional stability.  
 - Thin and strong aluminium frame ensures both rigidity and compactness.
 
-![Base Layout](media/images/base-layout.jpg)
-
 ---
 
 ## 🗣️ Control System
@@ -64,40 +61,45 @@ The goal of HHR is to make such automation **accessible, affordable, and practic
 Initially tested various control methods such as remote controls, but these proved unsuitable for users with limited dexterity.  
 Final design uses **voice activation** with **Natural Language Processing (NLP)** for intuitive control.
 
-📹 *Speech Control Test:*  
-[![Voice Control Test](media/images/voice-test-thumb.jpg)](media/videos/voice-control-test.mp4)
-
 ---
 
 ## 🧩 Mechanical Design
 
-### 🛞 Wheel System
+### ⭕ Wheel System
 - **Material:** PLA (wheels) + TPU (tyres)  
 - **Drive:** Gear system connects directly to motor shaft via 8 mm threaded rod  
 
-![3D Printed Wheel](media/images/wheel-design.jpg)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3f56afff-fb4a-4cf4-8f83-0d01a1986fa5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/2c517d7a-700d-44dc-8dfa-5934cfdbdc11" width="45%" />
+</p>
+
 
 ### 🧱 Frame
-- **20 × 20 mm aluminium extrusions** form the main structure  
+- **20 × 20 mm aluminium extrusions** form the main base structure  
 - **20 × 80 mm center extrusion** supports the robotic arm and electronics  
 
-![Aluminium Frame](media/images/aluminium-frame.jpg)
+<img width="898" height="546" alt="image" src="https://github.com/user-attachments/assets/f9137579-44ef-4b88-b4fd-36d9d7807e75" />
+
 
 ### 🤖 Robotic Arm
 - Fully **3D-printed PLA** arm mounted to the aluminium frame  
-- Custom-designed except for the open-source gripper (*by James Bruton*)  
+- Custom-designed except for the open-source gripper [**James Bruton**](https://www.youtube.com/watch?v=5RxZzuLiMdA&list=PLpwJoq86vov-vjlb1OEefk8BDxUmujIxM&index=10)
 
-![Robotic Arm](media/images/robotic-arm.jpg)
+<img width="695" height="878" alt="image" src="https://github.com/user-attachments/assets/876b0a42-6941-4b0b-b606-80622819e8b7" />
+
 
 ---
 
 ## 🧮 Inverse Kinematics
 
-Used trigonometric calculations to determine servo angles that position the arm and gripper.  
+Used **Jacobian Inverse Kinematics** to determine servo angles that position the arm and gripper.  
 Ensures coordinated movement between **shoulder** and **elbow** joints to keep the wrist properly aligned.
 
 📹 *Inverse Kinematics Test:*  
-[![Inverse Kinematics Video](media/images/ik-test-thumb.jpg)](media/videos/inverse-kinematics-test.mp4)
+<img width="517" height="920" alt="image" src="https://github.com/user-attachments/assets/c9803d78-0510-47ed-ba7f-b9c9a605d6a2" />
+<img width="420" height="748" alt="image" src="https://github.com/user-attachments/assets/b3591c05-f3f9-41f2-b96e-7d98a31d76fa" />
+
 
 ---
 
