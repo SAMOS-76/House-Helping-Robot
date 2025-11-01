@@ -97,8 +97,19 @@ Used **Jacobian Inverse Kinematics** to determine servo angles that position the
 Ensures coordinated movement between **shoulder** and **elbow** joints to keep the wrist properly aligned.
 
 📹 *Inverse Kinematics Test:*  
-<img width="517" height="920" alt="image" src="https://github.com/user-attachments/assets/c9803d78-0510-47ed-ba7f-b9c9a605d6a2" />
-<img width="420" height="748" alt="image" src="https://github.com/user-attachments/assets/b3591c05-f3f9-41f2-b96e-7d98a31d76fa" />
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/2d3d1b17-a46a-4ffe-800e-3c41a64ea7f5" width="100%" controls></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/0dec6374-98e1-49d1-9f57-fd68b3908de5" width="100%" controls></video>
+      </td>
+    </tr>
+  </table>
+</p>
+
 
 
 ---
@@ -114,41 +125,36 @@ Ensures coordinated movement between **shoulder** and **elbow** joints to keep t
 ### Base Electronics
 - **Motor Driver:** BTS7990  
 - **Motors:** High-torque DC motors  
-- **Power Distribution:** Centralized via custom protoboard and controllers
+- **Power Distribution:** Centralised via custom protoboard and controllers
 
 🖼️ *Electronics Diagram:*  
-![Electronics Diagram](media/images/electronics-diagram.jpg)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2cc6efce-ab3a-4c55-a022-7c7183a929a1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/af6c685a-a55c-41c8-bd73-822c93e046aa" width="45%" />
+</p>
 
 ---
 
 ## 💻 Software Overview
 
 ### Object Recognition
-- Utilizes **YOLO** algorithm with **Intel RealSense SDK** for real-time object detection and depth measurement.  
+- Utilises **YOLO** algorithm with **Intel RealSense SDK** for real-time object detection and depth measurement.  
 - Provides accurate distance data crucial for arm precision.
 
 📹 *Object Detection Test:*  
-[![YOLO + RealSense Test](media/images/object-detection-thumb.jpg)](media/videos/object-detection.mp4)
+
+
+https://github.com/user-attachments/assets/98a192f8-d9d7-446b-b042-e48d612b2d75
+
+
 
 ### Motion Control
 - Early **speed testing** helped tune servo and motor response to prevent vibration and mechanical stress.  
 - **Motor test** verified stability and smooth operation even at higher speeds.
 
 📹 *Motor Test:*  
-[![Motor Test Video](media/images/motor-test-thumb.jpg)](media/videos/motor-test.mp4)
+https://github.com/user-attachments/assets/9ae10499-6e5e-40fe-a8a8-7e11b5ab0d1e
 
----
-
-## 🧠 Dataflow Diagram
-
-The system processes:
-- Speech recognition  
-- Object detection  
-- Robotic arm & base control  
-- Depth perception  
-- Servo feedback loops  
-
-![Dataflow Diagram](media/images/dataflow-diagram.jpg)
 
 ---
 
@@ -159,7 +165,18 @@ The system processes:
 - **Motor & Control Tests:** Confirmed stability and reliability  
 
 📹 *Robot in Action:*  
-[![Full System Test](media/images/system-test-thumb.jpg)](media/videos/full-system-test.mp4)
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/4286afff-179c-439e-996d-f4df0268edd9" width="100%" controls></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/e2ec0e77-3440-4b0d-aa86-c9f86f86a3be" width="100%" controls></video>
+      </td>
+    </tr>
+  </table>
+</p>
 
 ---
 
@@ -169,7 +186,8 @@ The system processes:
 ✅ Reliable object handling  
 ✅ Responsive voice control  
 
-![Completed HHR](media/images/completed-hhr.jpg)
+<img width="693" height="925" alt="image" src="https://github.com/user-attachments/assets/1856fbf5-1feb-4786-92b1-aceb33fb072c" />
+
 
 ---
 
@@ -179,11 +197,6 @@ The system processes:
 - Optimize **software performance** and add **autonomous navigation**  
 - Expand **gripper functionality** for a wider range of tasks  
 
----
-
-## 🧩 Conclusion
-
-> I truly believe this project has the potential to **improve quality of life** for people at home and in care facilities — not by replacing human care, but by supporting it.
 
 ---
 
@@ -192,13 +205,8 @@ The system processes:
 | Component | Technology |
 |------------|-------------|
 | **Brain** | Raspberry Pi 4 + Arduino Nano |
-| **Vision** | Intel RealSense Camera + YOLO Object Detection |
+| **Vision and AI** | Intel RealSense Camera + YOLO Object Detection, Natural Language Processing |
 | **Structure** | Aluminium Extrusion + 3D-Printed PLA & TPU |
-| **Control** | Python, Serial Communication, NLP Voice Commands |
+| **Control** | Python, Serial Communication |
 | **Motion** | High-Torque DC Motors, BTS7990 Driver, Servo Actuators |
 
----
-
-## 📸 Media
-
-📂 Project file structure suggestion:
