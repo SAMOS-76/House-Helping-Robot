@@ -11,7 +11,7 @@ The **House Helping Robot (HHR)** combines mechanical design, computer vision, a
 ## 📘 Background
 
 ### Personal Robotics  
-Personal robots enable automation of repetitive or labor-intensive tasks in both domestic and professional settings.  
+Personal robots enable automation of repetitive or labour-intensive tasks in both domestic and professional settings.  
 The goal of HHR is to make such automation **accessible, affordable, and practical** — inspired by systems like the Toyota HSR.
 
 ---
@@ -44,14 +44,14 @@ https://github.com/user-attachments/assets/4dac9671-ce60-41e7-9f48-af2dfbe0eda8
 
 - **Frame:** Aluminium extrusion for modularity and strength.  
 - **Custom Parts:** 3D printed (PLA and TPU) for cost-effective and quick manufacturing.  
-- **Design Priority:** Maintain structural integrity while minimizing cost and weight.
+- **Design Priority:** Maintain structural integrity while minimising cost and weight.
 
 ---
 
 ## 🚗 Manoeuvrability
 
 - Base width under **45 cm**, allowing smooth passage through standard doorways.  
-- **Low center of mass** for exceptional stability.  
+- **Low centre of mass** for exceptional stability.  
 - Thin and strong aluminium frame ensures both rigidity and compactness.
 
 ---
@@ -77,7 +77,7 @@ Final design uses **voice activation** with **Natural Language Processing (NLP)*
 
 ### 🧱 Frame
 - **20 × 20 mm aluminium extrusions** form the main base structure  
-- **20 × 80 mm center extrusion** supports the robotic arm and electronics  
+- **20 × 80 mm centre extrusion** supports the robotic arm and electronics  
 
 <img width="898" height="546" alt="image" src="https://github.com/user-attachments/assets/f9137579-44ef-4b88-b4fd-36d9d7807e75" />
 
@@ -194,7 +194,7 @@ https://github.com/user-attachments/assets/9ae10499-6e5e-40fe-a8a8-7e11b5ab0d1e
 ## 🚀 Future Improvements
 
 - Enhance **aesthetics** and enclosure design  
-- Optimize **software performance** and add **autonomous navigation**  
+- Optimise **software performance** and add **autonomous navigation**  
 - Expand **gripper functionality** for a wider range of tasks  
 
 
@@ -209,4 +209,3 @@ https://github.com/user-attachments/assets/9ae10499-6e5e-40fe-a8a8-7e11b5ab0d1e
 | **Structure** | Aluminium Extrusion + 3D-Printed PLA & TPU |
 | **Control** | Python, Serial Communication |
 | **Motion** | High-Torque DC Motors, BTS7990 Driver, Servo Actuators |
-
